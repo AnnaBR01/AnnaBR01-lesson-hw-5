@@ -1,0 +1,30 @@
+.benefit {
+  padding: 80px 120px 80px 5px;
+}
+
+.benefit__container-top,
+.benefit__container-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.benefit__container-top {
+  margin-bottom: 32px;
+}
+
+.benefit__content-top {
+  margin-right: 126px;
+}
+
+.benefit__content-bottom {
+  margin-left: 126px;
+}
+
+.benefit__title {
+  font-size: 36px;
+}
+
+.benefit__description {
+  margin-top: 32px;
+  max-width: 584px;
+}

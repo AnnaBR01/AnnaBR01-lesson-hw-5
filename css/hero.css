@@ -1,0 +1,15 @@
+.hero {
+  padding-top: 80px;
+  padding-bottom: 96px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__content {
+  margin-right: 24px;
+}
+
+.hero__description {
+  margin-top: 32px;
+  max-width: 485px;
+}

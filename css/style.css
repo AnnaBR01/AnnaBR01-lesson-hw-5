@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@400;600;700&family=Raleway&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  color: #192252;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+
+.container {
+  padding: 0 5px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.arrow-right {
+  display: inline-block;
+  background-image: url(../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+
+.ellipse {
+  display: inline-block;
+  background: #ffece2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../images/ellipse.svg);
+  background-size: 15px 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ellipse--dark {
+  display: inline-block;
+  background: #ff620a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../images/ellipse-dark.svg);
+  background-size: 15px 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

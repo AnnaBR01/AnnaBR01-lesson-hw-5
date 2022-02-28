@@ -1,0 +1,22 @@
+.room-card {
+  min-width: 384px;
+}
+
+.room-card__image {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.room-card__title {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.room-card__description {
+  margin-bottom: 32px;
+}

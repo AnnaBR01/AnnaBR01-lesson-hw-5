@@ -1,0 +1,23 @@
+.offer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.offer__content {
+  margin-left: 126px;
+}
+
+.offer__title {
+  font-size: 36px;
+}
+
+.offer__description {
+  max-width: 584px;
+}
+
+.offer__content p:nth-child(2) {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}

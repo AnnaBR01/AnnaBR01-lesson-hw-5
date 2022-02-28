@@ -1,0 +1,38 @@
+.button {
+  font-family: inherit;
+  background: #0e1734;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.offer__button {
+  margin-top: 32px;
+}
+
+.hero__button {
+  margin-top: 32px;
+}
+
+.header__button {
+  padding: 14px 16px;
+}
+.button__right-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.button--variant--ghost {
+  padding: 0;
+  background: none;
+  color: #424f7b;
+}
+.button--variant--ghost-dark {
+  padding: 0;
+  background: none;
+  color: #0e1734;
+}

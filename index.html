@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/offer.css" />
     <link rel="stylesheet" href="./css/benefit.css" />
+    <link rel="stylesheet" href="./css/reservation.css" />
+    <link rel="stylesheet" href="./css/room-card.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/room.css" />
+    <link rel="stylesheet" href="./css/reviews.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -49,10 +57,13 @@
           <p class="offer__description">
             Our Cootage Hotel is an intimate hideway concieved for dicerning
             travelers. It faces directly the unique and spectacular panorama of
-            the Hallerbos Jungle. <br /><br />
+            the Hallerbos Jungle.
+          </p>
+          <p class="offer__description">
             Cootels extends along a private, quiet, and beautiful nature. Stay
             away from crowd and enjoy the cozy and beauty with us.
           </p>
+
           <button class="offer__button button">Learn More</button>
         </div>
       </section>
@@ -86,6 +97,165 @@
           </div>
         </div>
       </section>
+
+      <section class="reservation container">
+        <div class="reservation__wrapper">
+          <h2 class="reservation__title">Many Rooms to Choose</h2>
+          <p class="reservation__description">
+            There is a room for every needs. We have room for individuals until
+            family size, we also have a cabin for more private experience
+          </p>
+          <button class="reservation__button button">Explore more</button>
+        </div>
+        <div class="reservation__cards-container">
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/single room.png"
+              alt="single room"
+            />
+            <div class="room-card__content">
+              <h2 class="room-card__title">Single Room</h2>
+              <p class="room-card__description">
+                Best for a brave lone wolf who need comfort and quiet quality
+                time, but you still have a chance to meet others.
+              </p>
+              <button class="button--variant--ghost room-card__button button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/double room.png"
+              alt="single room"
+            />
+            <div class="room-card__content">
+              <h2 class="room-card__title">Double Room</h2>
+              <p class="room-card__description">
+                Best for couple, seek happiness in intimacy without worry of
+                being disturbed. Feel the whole world just for you two
+              </p>
+              <button class="button--variant--ghost room-card__button button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/cootage.png"
+              alt="single room"
+            />
+            <div class="room-card__content">
+              <h2 class="room-card__title">Cootage</h2>
+              <p class="room-card__description">
+                Best for family or group. One cootage can fit up to 5 people.
+                Made stronger bond with your family or friends
+              </p>
+              <button class="button--variant--ghost room-card__button button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="room container">
+        <div class="room__content content">
+          <p class="content__text">Start your journey!</p>
+          <h2 class="content__title">How to Get My Room?</h2>
+          <p class="content__description">
+            You can contact us by phone or email us. Easily tap the contact
+            button below and it will take you to our contact point
+          </p>
+          <button class="content__button button">Contact us</button>
+          <button class="content__button button button--variant--ghost-dark">
+            Explore more room
+          </button>
+        </div>
+
+        <div class="room__toggle toggle">
+          <div class="toggle__part-top">
+            <h2 class="toggle__title">1. Choose a room and date</h2>
+            <span class="title__ellipse-top ellipse"></span>
+          </div>
+          <div class="toggle__part-center">
+            <div class="toggle__part-title">
+              <h2 class="toggle__title">2. Check for room availability</h2>
+              <span class="title__ellipse-center ellipse--dark"></span>
+            </div>
+            <p class="toggle__description">
+              Contact us via phone or email, ask for availability of you choice
+              of room. We might offer you something exciting.
+            </p>
+          </div>
+          <div class="toggle__part-bottom">
+            <h2 class="toggle__title">3. Enjoy your room</h2>
+            <span class="title__ellipse-bottom ellipse"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews container">
+        <h2 class="reviews__title">Hear From Our Happy Customers</h2>
+        <img src="./images/photo.png" alt="photo" class="reviews__image" />
+        <p class="reviews__description">
+          “Great service, great food, great people. The scenery is also
+          beautiful, you can do so much activity even with your famility. Worth
+          every penny! you should come and see for your self. 5 out of 5! the
+          waffle is great!”
+        </p>
+        <p class="reviews__name">Kirana Dunham</p>
+        <p class="reviews__delimiter">
+          <span class="ellipse-small"></span>
+          <span class="ellipse-middle"></span>
+          <span class="ellipse-small"></span>
+          <span class="ellipse-small"></span>
+        </p>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__info">
+        <h2 class="info__title">Cootels</h2>
+        <p class="info__description">
+          Your Best Private <br />
+          Hideway From Crowd. <br />Back to Nature.
+        </p>
+        <div class="icons">
+          <img src="./images/twitter.png" alt="icon twitter" />
+          <img src="./images/Instagram.png" alt="icon instagram" />
+          <img src="./images/Facebook.png" alt="icon facebook" />
+        </div>
+      </div>
+      <div class="footer__link">
+        <nav class="footer__navigate">
+          <ul>
+            <li>Rooms</li>
+            <li>Single Room</li>
+            <li>Double Room</li>
+            <li>Cabin</li>
+            <li>Custom Room</li>
+          </ul>
+        </nav>
+        <nav class="footer__navigate">
+          <ul>
+            <li>Reservation</li>
+            <li>See the Steps</li>
+            <li>Best Time</li>
+          </ul>
+        </nav>
+        <nav class="footer__navigate">
+          <ul>
+            <li>Contact</li>
+            <li>Our Number</li>
+            <li>Our Email</li>
+            <li>Our Location</li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

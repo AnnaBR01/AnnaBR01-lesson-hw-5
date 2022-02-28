@@ -1,5 +1,6 @@
 .hero {
-  padding: 80px 0 96px;
+  padding-top: 80px;
+  padding-bottom: 96px;
   display: flex;
   align-items: center;
 }
@@ -11,8 +12,4 @@
 .hero__description {
   margin-top: 32px;
   max-width: 485px;
-}
-
-.hero__button {
-  margin-top: 32px;
 }
